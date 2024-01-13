@@ -6,8 +6,8 @@ The goal of this project is to propose a fluid and seamless experience for movie
 
 ## Technology stack
 
-- **Symfony 7:** A PHP framework renowned for its robustness, comprehensive features and unwavering commitment to quality and performance.
-- **Elasticsearch:** A powerful open-source distributed RESTful search and analytics engine.
+- **Python 3.X**
+- **Elasticsearch**
 
 ## REST API
 
