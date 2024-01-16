@@ -36,3 +36,7 @@ The goal of this project is to propose a fluid and seamless experience for movie
 
 <img src="https://github.com/JeremyDrr/MovieDB/blob/main/Elasticsearch_mappings.png" width="200">
 
+## Swagger
+###### Super Mega Swag
+
+<img src="https://github.com/JeremyDrr/MovieDB/blob/main/Swagger.png">
