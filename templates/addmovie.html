@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Add Movie</title>
+</head>
+<body>
+<h1 class="text-center">Add Movie</h1>
+
+<div class="container-fluid">
+    <form action="{{ url_for('add_movie') }}" method="POST">
+
+        <div class="form-group my-2">
+            <label for="adult">Adult:</label>
+            <input type="checkbox" class="form-check-input" name="adult">
+        </div>
+
+        <div class="form-group my-2">
+            <label for="belongs_to_collection">Belongs to Collection:</label>
+            <input type="text" class="form-control" name="belongs_to_collection" required>
+        </div>
+
+        <div class="form-group my-2">
+            <label for="budget">Budget:</label>
+            <input type="number" class="form-control" name="budget" required>
+        </div>
+
+        <div class="form-group my-2">
+            <label for="original_language">Original Language:</label>
+            <input type="text" class="form-control" name="original_language" required>
+        </div>
+
+        <div class="form-group my-2">
+            <label for="original_title">Original Title:</label>
+            <input type="text" class="form-control" name="original_title" required>
+        </div>
+
+        <div class="form-group my-2">
+            <label for="revenue">Revenue:</label>
+            <input type="number" class="form-control" name="revenue" required>
+        </div>
+
+        <div class="form-group my-2">
+            <label for="production_countries">Production Countries:</label>
+            <input type="text" class="form-control" name="production_countries" required>
+        </div>
+
+        <div class="form-group my-2">
+            <label for="release_date">Release Date:</label>
+            <input type="text" class="form-control" name="release_date" required>
+        </div>
+
+        <div class="form-group my-2">
+            <label for="vote_average">Vote Average:</label>
+            <input type="number" class="form-control" name="vote_average" required>
+        </div>
+
+        <div class="form-group my-2">
+            <label for="popularity">Popularity:</label>
+            <input type="number" class="form-control" name="popularity" required>
+        </div>
+
+        <div class="form-group my-2">
+            <label for="genres">Genres:</label>
+            <input type="text" class="form-control" name="genres" required>
+        </div>
+
+        <div class="form-group my-2">
+            <label for="title">Title:</label>
+            <input type="text" class="form-control" name="title" required>
+        </div>
+
+        <div class="form-group my-2">
+            <label for="overview">Overview:</label>
+            <textarea class="form-control" name="overview" rows="4" required></textarea>
+        </div>
+
+        <!-- Add more fields as needed -->
+
+        <button type="submit" class="btn btn-outline-light my-5">Add Movie</button>
+    </form>
+</div>
+</body>
+</html>
