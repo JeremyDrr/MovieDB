@@ -23,11 +23,6 @@ The goal of this project is to propose a fluid and seamless experience for movie
 | **DELETE** | `/api/movies/delete/{movie_id}` | Delete a specific movie by its ID |
 
 
-## Prerequisites
-
-- PHP 8.x
-- Elasticsearch
-
 ## Installation
 
 1. Download `Elasticsearch` client for Windows
