@@ -32,5 +32,7 @@ The goal of this project is to propose a fluid and seamless experience for movie
 5. Download the CSV of dataset at this [link](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset)
 6. Copy the downloaded CSV at the root of the project folder
 
+## Elasticsearch Mappings
 
+<img src="https://github.com/JeremyDrr/MovieDB/blob/main/Elasticsearch_mappings.png" width="200">
 
