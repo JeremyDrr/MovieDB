@@ -8,6 +8,8 @@ The goal of this project is to propose a fluid and seamless experience for movie
 
 - **Python 3.X**
 - **Elasticsearch**
+- **Flask**
+- **CSV**
 
 ## REST API
 
@@ -30,7 +32,10 @@ The goal of this project is to propose a fluid and seamless experience for movie
 
 1. Download `Elasticsearch` client for Windows
 2. Extract the ZIP folder
-3. 
+3. Download the project folder
+4. Extract the project ZIP folder
+5. Download the CSV of dataset at this [link](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset)
+6. Copy the downloaded CSV at the root of the project folder
 
 
 
